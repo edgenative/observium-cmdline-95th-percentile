@@ -11,6 +11,9 @@ from email.mime.text import MIMEText
 from collections import defaultdict
 import os
 
+# Script for generating 95th Percentile reports from your Observium Instance
+# (c) 2025 Lee Hetherington <lee@edgenative.net>
+
 # ---------------------- SMTP Configuration ----------------------
 SMTP_HOST = "localhost"
 SMTP_PORT = 25  # Default unauthenticated SMTP port
